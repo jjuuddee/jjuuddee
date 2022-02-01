@@ -1,0 +1,353 @@
+Index:-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crime Reporting Management System</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="Home_title">
+            <h1>Crime Reporting Management System</h1>
+        </div>
+        <div class="Register_button">
+            <a href="Register.html" class="Regbtn">Register</a>
+        </div>
+        <div class="Login_button">
+              <a href="Login.html" class="Loginbtn">LogIn</a>
+        </div>
+    </header>
+</body>
+</html>
+
+Login:-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+    <div>
+        <form action="Home.html" id='login' class='input-group-login'>
+            <input type='text' class='input-field'placeholder='Email Id' required >
+            <input type='password' class='input-field'placeholder='Enter Password' required><br><br>
+                <button type='submit' class='submit-btn'>Log in</button>
+        </form>
+    </div>
+    </header>
+</body>
+</html>
+
+Criminal Registration:-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criminal Registration</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="full-page">
+            <div class="navbar">               
+                <nav>
+                    <ul id='MenuItems'>
+                        <li><a href='Home.html'>Home</a></li>
+                        <li><a href='#'>About Us</a></li>
+                        <li><a href="index.html">Logout</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div><br>
+        <div>
+            <h3>Register Criminal</h3>
+        </div>
+        <form id="register" class="input-group-register">
+            <input type="text" class='input-field' placeholder="Name" required>
+            <input type="number" class='input-field' placeholder="Age" required>
+            <select class="input-field">
+                <option selected disabled>Gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+            <input type="text" class='input-field' placeholder="Crime Type" required> 
+            <input type="text" class='input-field' placeholder="Nationality" required>
+            <input type="date" class='input-field' required>
+            <textarea  cols="30" rows="3" class='input-field' placeholder="Address"></textarea>
+            <input type="file" class='ChooseFile' required><br><br>
+            <button type='submit' class='submit-btn'>Register</button>
+        </form>
+    </header>  
+</body>
+</html>
+
+Missing Person:-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missing Person</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="full-page">
+            <div class="navbar">               
+                <nav>
+                    <ul id='MenuItems'>
+                        <li><a href='Home.html'>Home</a></li>
+                        <li><a href='#'>About Us</a></li>
+                        <li><a href="index.html">Logout</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div><br>
+        <div>
+            <h3>Missing Person</h3>
+        </div>
+        <form id="register" class="input-group-register">
+            <input type="text" class='input-field' placeholder="Missing Person Name" required>
+            <input type="number" class='input-field' placeholder="Age" required>
+            <select class="input-field">
+                <option selected disabled>Gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+            <input type="text" class='input-field' placeholder="City" required>
+            <input type="text" class='input-field' onfocus="(this.type='date')" placeholder="Date of Missing" required>          
+            <input type="text" class='input-field' placeholder="Father Name" required>
+            <input type="text" class='input-field' placeholder="Mother Name" required>
+            <textarea  cols="30" rows="4" class='input-field' placeholder="Statement"></textarea><br><br>
+            <button type='submit' class='submit-btn'>Submit</button>
+        </form>
+    </header>
+</body>
+</html>
+
+Missing Things:-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missing Things</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="full-page">
+            <div class="navbar">               
+                <nav>
+                    <ul id='MenuItems'>
+                        <li><a href='Home.html'>Home</a></li>
+                        <li><a href='#'>About Us</a></li>
+                        <li><a href="index.html">Logout</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div><br><br><br>
+        <div>
+            <div>
+                <h3>Missing Things</h3>
+            </div>
+            <form id="register" class="input-group-register">
+                <input type="text" class='input-field' placeholder="Owner Name" required>
+                <input type="text" class='input-field' placeholder="Missing Things" required>
+                <input type="text" class='input-field' onfocus="(this.type='date')" placeholder="Date of Missing" required>
+                <input type="text" class='input-field' onfocus="(this.type='date')" placeholder="Report taken Date" required>
+                <textarea  cols="30" rows="8" class='input-field' placeholder="Statement"></textarea><br><br>
+                <button type='submit' class='submit-btn'>Submit</button>
+            </form>
+        </div>
+    </header>
+</body>
+</html>
+
+Missing Vehicles:-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Missing</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+
+        <div class="full-page">
+            <div class="navbar">
+                
+                <nav>
+                    <ul id='MenuItems'>
+                        <li><a href='Home.html'>Home</a></li>
+                        <li><a href='#'>About Us</a></li>
+                        <li><a href="index.html">Logout</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div><br><br><br>
+        <div>
+            <div>
+                <h3>Missing Vehicle</h3>
+            </div>
+            <form id="register" class="input-group-register">
+                <input type="text" class='input-field' placeholder="Owner Name" required>
+                <input type="text" class='input-field' placeholder="Vehicle Name" required>
+                <input type="text" class='input-field' placeholder="Vehicel Number" required>
+                <input type="date" class='input-field' required>
+                <textarea  cols="30" rows="8" class='input-field' placeholder="Statement"></textarea><br><br>
+                <button type='submit' class='submit-btn'>Submit</button>
+            </form>
+        </div>
+    </header>
+    
+</body>
+</html>
+
+Register:-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+    <div>
+        <form id='register' class='input-group-register'>
+            <input type='text' class='input-field' placeholder='First Name' required>
+            <input type='text' class='input-field' placeholder='Last Name ' required>
+            <input type='email' class='input-field' placeholder='Email Id' required>
+            <input type='password' class='input-field' placeholder='Enter Password' required>
+            <input type='password' class='input-field' placeholder='Confirm Password'  required><br><br>
+                   <button type='submit' class='submit-btn'>Register</button>
+            </form>
+    </div>
+    </header>
+</body>
+</html>
+
+Register Compaint:-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Complaint</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="full-page">
+            <div class="navbar">
+                
+                <nav>
+                    <ul id='MenuItems'>
+                        <li><a href='Home.html'>Home</a></li>
+                        <li><a href='#'>About Us</a></li>
+                        <li><a href="index.html">Logout</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div>
+            <div class="h1_From">
+                <h1>Complaint From</h1>
+            </div>
+            <form id="register" class="input-group-register-RegCompFrom">
+                <input type="text" class='input-field' placeholder="Name" required>
+                <input type="number" class='input-field' placeholder="Phone Number" required>
+                <input type="text" class='input-field' placeholder="City" required>
+                <input type="date" class='input-field' placeholder="City" required>
+                <textarea  cols="30" rows="2" class='input-field' placeholder="Address"></textarea>
+                <textarea  cols="30" rows="3" class='input-field' placeholder="Statement"  required></textarea><br><br>
+            
+            <div class="h1_Against">
+                <h1>Complaint Against</h1>
+            </div>
+            <div id="register" class="input-group-register-RegCompAgainst">
+                <input type="text" class='input-field' placeholder="Name" required>
+                <input type="number" class='input-field' placeholder="Phone Number" required>
+                <input type="text" class='input-field' placeholder="City" required>
+                <textarea  cols="30" rows="2" class='input-field' placeholder="Address"></textarea><br><br>
+                <button type='submit' class='submit-btn'>Register</button>
+            </div>
+            </form>
+            
+        </div>
+    </header>
+</body>
+</html>
+
+Chargesheet:-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charge Sheet</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="full-page">
+            <div class="navbar">
+                
+                <nav>
+                    <ul id='MenuItems'>
+                        <li><a href='Home.html'>Home</a></li>
+                        <li><a href='#'>About Us</a></li>
+                        <li><a href="index.html">Logout</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div><br><br><br>
+        <div>
+            <div>
+                <h3>Charge Sheet</h3>
+            </div>
+            <form id="register" class="input-group-register">
+                <input type="text" class='input-field' placeholder="Charge Sheet Number" required>
+                <input type="text" class='input-field' placeholder="Police Station Number" required>
+                <input type="date" class='input-field'  required>
+                <input type="time" class='input-field' required>
+                <input type="text" class='input-field' placeholder="FIR Number" required>
+                <textarea  cols="30" rows="8" class='input-field' placeholder="Statement"></textarea><br><br>
+                <button type='submit' class='submit-btn'>Submit</button>
+            </form>
+        </div>
+
+    </header>
+</body>
+</html>
+
